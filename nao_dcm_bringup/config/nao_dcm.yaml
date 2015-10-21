@@ -26,6 +26,3 @@ CameraFrequency: 15
 # Robot related parameters
 JointPrecision: 0.00174532925
 OdomFrame: odom
-
-# DO NOT CHANGE IT
-Prefix: nao_dcm
