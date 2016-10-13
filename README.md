@@ -7,9 +7,7 @@ Installation
 ------------
 - install dependencies
 
-        sudo apt-get install ros-indigo-nao-robot ros-indigo-nao-meshes ros-indigo-nao-control
-
-- clone and compile [naoqi_dcm_driver] (https://github.com/ros-aldebaran/naoqi_dcm_driver>)
+        sudo apt-get install ros-indigo-nao-robot ros-indigo-nao-meshes ros-indigo-nao-control ros-indigo-naoqi-dcm-driver
 
 - then, clone the code from [nao_dcm_bringup] (http://wiki.ros.org/nao_dcm_bringup>) and compile
 
