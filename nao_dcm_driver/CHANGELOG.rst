@@ -2,8 +2,8 @@
 Changelog for package nao_dcm_driver
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.2 (2016-10-14)
+------------------
 * Do not search naoqi libraries in ROS paths, go directly in SDK path
 * Fix install rule.
   It made catkin_make fail on a system without NAOqi C++ sdk. The error was:
