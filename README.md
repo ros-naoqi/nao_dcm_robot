@@ -9,9 +9,10 @@ Installation
 
         sudo apt-get install ros-indigo-nao-robot ros-indigo-nao-meshes ros-indigo-nao-control ros-indigo-naoqi-dcm-driver
 
-- then, clone the code from [nao_dcm_bringup] (http://wiki.ros.org/nao_dcm_bringup>) and compile
+- then, clone the code from [this repo] (https://github.com/ros-naoqi/nao_dcm_robot), documentation [nao_dcm_bringup] (http://wiki.ros.org/nao_dcm_bringup>) and compile
 
 - optionally, install [nao_moveit_config] (http://wiki.ros.org/nao_moveit_config>)
+        sudo apt-get install ros-indigo-nao-moveit-config
 
 How to use it
 -------------
