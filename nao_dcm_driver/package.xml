@@ -21,16 +21,18 @@ OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISE
 <package>
   <name>nao_dcm_driver</name>
   <version>0.0.2</version>
-  <description>Package containing the hardware interface to connect to Aldebaran's Nao robot (v4).</description>
+  <description>Package containing the hardware interface to connect to Aldebaran's Nao robot (v4).
+  This is a legacy package relying on NaoQi SDK, replaced by naoqi_dcm_driver</description>
 
-  <maintainer email="mikael.arguedas@gmail.com">Mikael Arguedas</maintainer>
+  <author email="costashatz@gmail.com">Konstantinos Chatzilygeroudis</author>
 
+  <author email="mikael.arguedas@gmail.com">Mikael Arguedas</author>
+  <maintainer email="natalia.lyubova@gmail.com">Natalia Lyubova</maintainer>
 
   <license>BSD</license>
 
-  <url type="repository">https://github.com/ros-aldebaran/nao_dcm_robot/nao_dcm_driver</url>
-
-  <author email="costashatz@gmail.com">Konstantinos Chatzilygeroudis</author>
+  <url type="repository">https://github.com/ros-naoqi/nao_dcm_robot/nao_dcm_driver</url>
+  <url type="bugtracker">https://github.com/ros-naoqi/nao_dcm_robot/issues</url>
 
 
   <buildtool_depend>catkin</buildtool_depend>
