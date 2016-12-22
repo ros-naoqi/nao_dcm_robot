@@ -20,7 +20,7 @@ INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT
 OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. -->
 <package>
   <name>nao_dcm_bringup</name>
-  <version>0.0.2</version>
+  <version>0.0.3</version>
   <description>Bring-up the nao_dcm driver to connect to Aldebaran's Nao robot (v4).</description>
 
   <author email="costashatz@gmail.com">Konstantinos Chatzilygeroudis</author>

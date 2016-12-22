@@ -2,8 +2,8 @@
 Changelog for package nao_dcm_bringup
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.3 (2016-12-22)
+------------------
 * fixing package.xml
 * update links after moving repo + update maintainer (`#1 <https://github.com/ros-naoqi/nao_dcm_robot/issues/1>`_)
   * update links after moving repo + update maintainer
