@@ -24,7 +24,7 @@ OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISE
   <description>Bring-up the nao_dcm driver to connect to Aldebaran's Nao robot (v4).</description>
 
   <author email="costashatz@gmail.com">Konstantinos Chatzilygeroudis</author>
-  <author email="mikael.arguedas@gmail.com">Mikael Arguedas</maintainer>
+  <author email="mikael.arguedas@gmail.com">Mikael Arguedas</author>
   <maintainer email="natalia.lyubova@gmail.com">Natalia Lyubova</maintainer>
 
   <license>BSD</license>
