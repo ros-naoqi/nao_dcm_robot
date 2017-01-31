@@ -2,8 +2,8 @@
 Changelog for package nao_dcm_bringup
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.4 (2017-01-31)
+------------------
 * adding arguments
 * Adding missing dependency
 * Contributors: Natalia Lyubova
