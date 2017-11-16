@@ -1,5 +1,11 @@
 <?xml version="1.0"?>
 <launch>
+
+        <arg name="robot_ip"          default="$(optenv NAO_IP)" />
+        <arg name="robot_port"        default="$(optenv NAO_PORT 9559)" />
+        <arg name="roscore_ip"        default="$(optenv ROS_IP 127.0.0.1)" />
+        <arg name="network_interface" default="$(optenv NETWORK_INTERFACE eth0)" />
+
  	<!-- Call Nao Robot publisher -->
         <include file="$(find nao_description)/launch/upload_nao.launch"/>
     
@@ -18,6 +24,10 @@
                 <rosparam file="$(find nao_dcm_bringup)/config/nao_dcm.yaml" command="load"/> 
                 <!-- Specify Robot Body Type on Parameter Server -->
                 <param name="BodyType" value="H25"/>
+                <param name="RobotIP"             value="$(arg robot_ip)" />
+                <param name="RobotPort"           value="$(arg robot_port)" />
+                <param name="DriverBrokerIP"      value="$(arg roscore_ip)" />
+                <param name="network_interface"   value="$(arg network_interface)" />
  	</node>
 
 </launch>
