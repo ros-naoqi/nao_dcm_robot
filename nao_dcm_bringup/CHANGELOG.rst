@@ -2,6 +2,12 @@
 Changelog for package nao_dcm_bringup
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* adding robot_ip parameter in nao_dcm_H25_bringup_position.launch
+* fixing nao_dcm_H25_bringup_position.launch
+* Contributors: Natalia Lyubova
+
 0.0.4 (2017-01-31)
 ------------------
 * adding arguments
