@@ -20,6 +20,8 @@ Installation
 How to use it
 -------------
 
+**Trajectory control**
+
 To command your robot remotely with ros control :
 
 - first, wake up your robot and choose a stable pose 
@@ -43,3 +45,15 @@ example:
 To choose the controllers you want to load at launchtime you have to modify nao_control/launch/nao_control_trajectory.launch
 To know the list of controllers implemented please refer to : nao_control/config/nao_trajectory_control.yaml 
 You can start and stop the ros-controllers using the rqt plugin ControllerManager
+
+**Position control**
+
+To command joints positions via ROS:
+
+* start the DCM bringup proving your robot's IP (be aware that the package will stop Autonomous Life on your robot):
+
+        roslaunch nao_dcm_bringup nao_dcm_H25_bringup_position.launch robot_ip:=<ROBOT_IP>
+
+* send a position to the desired controller, for example
+
+        rostopic pub /nao_dcm/LWristYaw_position_controller/command std_msgs/Float64 "data: 0"
