@@ -13,7 +13,7 @@
 	<include file="$(find nao_control)/launch/nao_control_position.launch"/>
 
  	<!-- Call Nao Robot Driver -->
- 	<node pkg="nao_dcm_driver" type="nao_dcm_driver" name="nao_dcm_driver" respawn="false" output="screen" >
+ 	<node pkg="naoqi_dcm_driver" type="naoqi_dcm_driver" name="naoqi_dcm_driver" respawn="false" output="screen" >
                 <!-- Load configurations from YAML file to parameter server -->
                 <rosparam file="$(find nao_dcm_bringup)/config/nao_dcm.yaml" command="load"/> 
                 <!-- Specify Robot Body Type on Parameter Server -->
